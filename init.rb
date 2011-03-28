@@ -1,5 +1,7 @@
 require 'redmine'
 
+require_dependency 'studiomobile/hooks'
+
 # Patches to the Redmine core.
 require 'dispatcher'
 
