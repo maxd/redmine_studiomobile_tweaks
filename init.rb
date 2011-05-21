@@ -1,6 +1,7 @@
 require 'redmine'
 
-require_dependency 'studiomobile/hooks'
+require_dependency 'studiomobile/view_hooks'
+require_dependency 'studiomobile/issues_controller_hooks'
 
 # Patches to the Redmine core.
 require 'dispatcher'
